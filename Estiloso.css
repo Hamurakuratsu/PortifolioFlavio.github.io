@@ -1,0 +1,183 @@
+#titulo {
+	text-align: center;
+	font-family: "Tempus Sans ITC";
+	font-size: 8vh;
+	color: white;
+	background-color: rgb(106,185,209);
+	padding: 2vw;
+	margin: 1vw;
+	border-radius: 12px; 
+	width: 93vw;
+}
+
+#menunav {
+	width: 15vw;
+	height: 30vw;
+	float:center;
+}	
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+button {
+	text-align: center;
+	width: 12.5vw;
+	padding: 2px; 
+	margin-left: 1.5vw;
+	margin-right: 1.5vw;
+	margin-top: 1vw;
+	margin-bottom: none;
+}
+
+#imagemcentral {
+	width: 60%;
+	height: auto;
+	float: center;
+	margin-bottom: 5%; 
+
+}
+
+body{
+	height: 96vh;
+	width: 98vw;
+	background-color: rgb(229,237,253);
+}
+
+.botao{
+	background-color: rgb(212,227,252); 
+    border: none;
+    color: black;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 12px;
+}
+
+button:hover {
+	background-color: rgb(106,185,209); 
+	color: white;
+}
+
+#patreon {
+	font-size: 170%;
+	text-align: center;
+	padding: 3%;
+	margin-top: 3vh;
+	margin-bottom: 5%;
+	margin-left: 0.5vw;
+	color: white;
+}
+
+#principal {
+	width: 79.4vw;
+	height: 75vh;
+	float: left;
+	margin-left: 1vw;
+	background-color: rgb(152,188,200);
+	border-radius: 12px;
+}
+
+#moldura {
+	padding-top: 2vh;
+	padding-bottom: 6vh; 
+	text-align: center;
+	height: 50vh;
+	width: 50vw;
+	margin-top: 3vh;
+	background-color: rgb(212,227,252);
+	border-radius: 12px;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	margin-bottom: 3vh;
+}
+
+#aside {
+	height: 75vh;
+	width: 15.6vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	float: left;
+	margin-bottom: 1.5%;
+	background-color: rgb(125,157,189);
+	border-radius: 10px;
+}
+
+#facebook{
+	width: 15vw;
+	height: 15vw;
+	border:0;
+  	display: block;
+  	margin:auto;
+
+}
+
+#next{
+	background-color: rgb(212,227,252); 
+    border: none;
+    color: black;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 12px;
+    float:right;
+}
+#next:hover{
+	background-color: rgb(106,185,209); 
+	color: white;
+}
+
+@media only screen and (max-width:850px) {
+  /* For mobile phones: */
+  #aside, #principal, #menunav {
+    width:92vw;
+    float: center;
+  }
+  button{
+  	margin-top: 2vh;
+  	margin-bottom: none;
+  	padding:1px;
+  	margin-left: 2vw;
+  	margin-right: 2vw;
+  	width: 88vw;
+  }
+  #principal{
+  	height:auto;
+  }
+  #menunav{
+  	height:90vh;
+  }
+  #titulo{
+  	width: 88vw;
+  	margin-bottom:2vw;
+  }
+  #aside{
+  	height: 87vmax;
+  }
+  #facebook{
+  	margin:auto;
+  	width: 20vmax;
+  	height: 20vmax;
+  	display: block;
+  	float:center;
+  }
+  #patreon{
+  	margin-top: 5vh;
+  }
+  #moldura{
+  	margin-left: 6vw;
+  	width: 80vw;
+  	height: auto;
+  }
+  #imagemcentral{
+  	width: 75%;
+  }
+
+}
